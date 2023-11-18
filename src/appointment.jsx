@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Apptable from './Apptable';
+import Apptable from './apptable';
 axios.defaults.baseURL = 'https://hos-backend.onrender.com/';
 
 function ApppointmentList() {
