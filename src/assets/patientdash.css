@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace; 
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.doctor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.doctor-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 16px 16px 16px #082567; /* Set the color for all sides */
+    background-color: white;
+}
+
+.doctor-box h3 {
+    margin-bottom: 10px;
+    color: #333;
+}

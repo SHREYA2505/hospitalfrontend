@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6ff;
+}
+
+.white-background-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%; /* Reduced width */
+  margin: 40px; /* Reduced margin */
+}
+
+.doctor-container,
+.appointment-container,.patient-container ,.staff-container{
+  padding: 10px;
+  max-width: fit-content;
+  margin: 40px auto; /* Reduced margin */
+  background-color: #f5f6ff;
+}
+
+.btn {
+  border: none;
+  padding: 7px 15px;
+  font-size: 16px; /* Reduced font size */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background: #194064;
+  color: white;
+  margin-bottom: 8px; /* Reduced margin */
+  margin-left: 0;
+}
+
+.addcontainer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addcontainer form {
+  width: 280px; /* Reduced width */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 12px; /* Reduced padding */
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+  border-radius: 5px;
+}
+
+.addcontainer form label {
+  font-size: 14px; /* Reduced font size */
+}
+
+.addcontainer form input {
+  font-size: 14px; /* Reduced font size */
+  padding: 4px; /* Reduced padding */
+  margin-top: 4px; /* Reduced margin */
+  margin-bottom: 8px; /* Reduced margin */
+}
+
+.addcontainer form button {
+  background-color: royalblue;
+  color: white;
+  font-weight: 500;
+  margin-top: 12px; /* Reduced margin */
+}
+
+.addcontainer form .close-btn {
+  margin-left: auto;
+  font-size: 10px;
+  width: 18px; /* Reduced width */
+  height: 18px; /* Reduced height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px; /* Reduced border radius */
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.tableContainer table {
+  max-width: 60px;
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  font-size: 10px; /* Reduced font size */
+}
+
+.tableContainer table thead tr {
+  background-color: #f0eaea;
+}
+
+.tableContainer table tbody tr {
+  border: 1px solid #c9c5c2;
+}
+
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td {
+  padding: 2px 4px; /* Reduced padding */
+  text-align: center;
+  word-break: break-all;
+  max-width: 200px; /* Reduced max-width */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tableContainer table tbody tr td {
+  border-bottom: 1px solid #c9c5c2;
+}
+
+.btn-edit,
+.btn-delete {
+  font-size: 14px; /* Reduced font size */
+  padding: 4px 8px; /* Reduced padding */
+  margin: 0px 8px; /* Reduced margin */
+}
+
+.btn-edit {
+  background-color: green;
+}
+
+.btn-delete {
+  background-color: #fa1717;
+  color: white;
+}

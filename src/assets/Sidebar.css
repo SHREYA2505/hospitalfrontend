@@ -1,0 +1,64 @@
+/* Updated Sidebar.css */
+
+/* Set overall styles for the layout */
+html, body, #root {
+  height: 100%; /* Ensure all parent elements have a defined height */
+  margin: 0;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100%; /* Make the dashboard container full height */
+}
+
+.sidebar {
+  width: 25%; /* Set sidebar to cover one-fourth of the page */
+  min-width: 250px; /* Set a minimum width for the sidebar */
+  background-color: rgb(8,37,103);
+  padding: 30px 20px; /* Adjusted padding */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  height: 100%; /* Make the sidebar full height */
+  overflow-y: auto; /* Add scroll if the content exceeds the height */
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the links as boxes */
+.sidebar a {
+  display: block;
+  padding: 30px; /* Increased padding for larger boxes */
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  background-color: #0047AB;
+  margin-bottom: 20px; /* Increased margin between the links */
+}
+
+.sidebar a:hover {
+  background-color: #5dade2;
+}
+/* Sidebar.css */
+
+.logout-button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+

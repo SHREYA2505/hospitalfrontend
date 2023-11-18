@@ -1,0 +1,15 @@
+.app-container {
+    background-color: lightblue;
+    min-height: 100vh;
+  }
+  body {
+    background-color: black; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+  }
+  .just{
+    align-items: end;
+  }
+  
